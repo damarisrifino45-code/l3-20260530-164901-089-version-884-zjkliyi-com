@@ -1,16 +1,17 @@
-﻿# website-upload-20260530-164901-089
+# 国产影片大全 静态电影网站
 
-Batch 89 of 43. Contains extracted static website versions. The original zip files are not committed.
+生成结果：
 
-| Directory | Source zip |
-| --- | --- |
-| version-881 | project-bolt-sb1-epbwt8cb - 副本-chatgpt (1) (moved 1).zip |
-| version-882 | project-bolt-sb1-epbwt8cb-chatgpt (1) (moved 1).zip |
-| version-883 | project-bolt-sb1-eph59ml3 - 副本-chatgpt (1) (moved 1).zip |
-| version-884 | project-bolt-sb1-eph59ml3-chatgpt (1) (moved 2).zip |
-| version-885 | project-bolt-sb1-etxsrvqe - 副本-chatgpt (1) (moved 3).zip |
-| version-886 | project-bolt-sb1-etxsrvqe-chatgpt (1) (moved 2).zip |
-| version-887 | project-bolt-sb1-etxsrvqe-chatgpt (2).zip |
-| version-888 | project-bolt-sb1-ex47us4r - 副本-chatgpt (1) (moved 2).zip |
-| version-889 | project-bolt-sb1-ex47us4r-chatgpt (1) (moved 2).zip |
-| version-890 | project-bolt-sb1-ex47us4r-chatgpt (2).zip |
+- 首页：index.html
+- 分类总览：categories.html
+- 排行榜：rank.html
+- 全站搜索：search.html
+- 完整片库分页：library/page-001.html 起
+- 影片详情页：detail/0001.html 至 detail/2000.html
+- 样式文件：assets/site.css
+- 交互脚本：assets/site.js
+- 搜索索引：assets/search-data.js
+
+图片使用说明：
+
+页面已按影片序号循环引用顶级目录下的 1.jpg 到 150.jpg。将图片文件放在网站根目录后，首页 Hero、影片卡片、详情页封面会自动显示对应图片。
